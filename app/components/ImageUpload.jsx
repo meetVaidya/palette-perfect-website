@@ -67,9 +67,10 @@ export default function ImageUpload() {
             }
 
             const result = await response.json();
+            console.log(result);
             setColorData(result);
             setOriginalColorData(result);
-            setSeason(result.season);
+            // setSeason(result.season);
             setFullAnalysis(result.fullAnalysis);
         } catch (error) {
             alert(error.message);
