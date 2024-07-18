@@ -152,12 +152,12 @@ export default function ImageUpload() {
                     <button onClick={handleResetColors} className="reset-button">
                         Reset Colors
                     </button>
-                    {season && (
+                    {/* {season && (
                         <div className="season-result">
                             <h3>Your Color Season:</h3>
                             <p>{season}</p>
                         </div>
-                    )}
+                    )} */}
                     {fullAnalysis && (
                         <div className="full-analysis">
                             <h3>Full Analysis:</h3>
