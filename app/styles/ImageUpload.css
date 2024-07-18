@@ -1,0 +1,27 @@
+/* ... (previous styles) */
+
+.season-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.season-result h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.full-analysis {
+    margin-top: 20px;
+}
+
+.full-analysis h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.full-analysis p {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
